@@ -43,7 +43,7 @@ typedef enum {
  * @brief Logging configuration
  */
 #ifndef LOG_BUFFER_SIZE
-#define LOG_BUFFER_SIZE 1024 /* Default buffer size - should be power of 2 */
+#define LOG_BUFFER_SIZE 16*1024 /* Default buffer size - should be power of 2 */
 #endif
 
 #ifndef LOG_MAX_MESSAGE_SIZE
@@ -51,7 +51,7 @@ typedef enum {
 #endif
 
 #ifndef LOG_COMPILE_TIME_LEVEL
-#define LOG_COMPILE_TIME_LEVEL LOG_LEVEL_ERROR
+#define LOG_COMPILE_TIME_LEVEL LOG_LEVEL_DEBUG
 #endif
 
 /**

@@ -23,7 +23,7 @@
 
 // Global variables for logging
 static UART_Handle *g_logging_uart_handle = nullptr;
-static uint8_t g_log_buf[1024];
+static uint8_t g_log_buf[16*1024];
 static uint8_t g_log_rx_buf[1];
 static CircularBuffer g_log_cb;
 static CircularBuffer g_log_rx_cb;

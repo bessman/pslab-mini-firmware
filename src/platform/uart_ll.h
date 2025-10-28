@@ -21,7 +21,9 @@ typedef enum {
     UART_BUS_0 = 0,
     UART_BUS_1 = 1,
     UART_BUS_2 = 2,
-    UART_BUS_COUNT = 3
+    UART_BUS_3 = 3,
+    UART_BUS_4 = 4,
+    UART_BUS_COUNT = 5
 } UART_Bus;
 
 /**
